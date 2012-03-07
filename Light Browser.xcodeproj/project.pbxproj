@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F706DB991506485700379572 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F706DB981506485700379572 /* Cocoa.framework */; };
+		F706DBA31506485700379572 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F706DBA11506485700379572 /* InfoPlist.strings */; };
+		F706DBA51506485700379572 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F706DBA41506485700379572 /* main.m */; };
+		F706DBA91506485800379572 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F706DBA71506485800379572 /* Credits.rtf */; };
+		F706DBAC1506485800379572 /* Light_BrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F706DBAB1506485800379572 /* Light_BrowserAppDelegate.m */; };
+		F706DBAF1506485800379572 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F706DBAD1506485800379572 /* MainMenu.xib */; };
+		F706DBB81506490000379572 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F706DBB71506490000379572 /* WebKit.framework */; };
+		F706DBBA1506548500379572 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F706DBB91506548500379572 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F706DB941506485700379572 /* Light Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F706DB981506485700379572 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F706DB9B1506485700379572 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F706DB9C1506485700379572 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F706DB9D1506485700379572 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F706DBA01506485700379572 /* Light Browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Light Browser-Info.plist"; sourceTree = "<group>"; };
+		F706DBA21506485700379572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F706DBA41506485700379572 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F706DBA61506485700379572 /* Light Browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Light Browser-Prefix.pch"; sourceTree = "<group>"; };
+		F706DBA81506485800379572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F706DBAA1506485800379572 /* Light_BrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light_BrowserAppDelegate.h; sourceTree = "<group>"; };
+		F706DBAB1506485800379572 /* Light_BrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light_BrowserAppDelegate.m; sourceTree = "<group>"; };
+		F706DBAE1506485800379572 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F706DBB5150648D900379572 /* Web-browser-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Web-browser-icon.png"; sourceTree = "<group>"; };
+		F706DBB71506490000379572 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F706DBB91506548500379572 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		F75F2667150656DB0082E30C /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F75F2668150656E20082E30C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F75F2669150656E50082E30C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F706DB911506485700379572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F706DBB81506490000379572 /* WebKit.framework in Frameworks */,
+				F706DB991506485700379572 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F706DB891506485700379572 = {
+			isa = PBXGroup;
+			children = (
+				F706DBB91506548500379572 /* icon.icns */,
+				F706DBB71506490000379572 /* WebKit.framework */,
+				F706DBB5150648D900379572 /* Web-browser-icon.png */,
+				F706DB9E1506485700379572 /* Light Browser */,
+				F706DB971506485700379572 /* Frameworks */,
+				F706DB951506485700379572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F706DB951506485700379572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F706DB941506485700379572 /* Light Browser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F706DB971506485700379572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F706DB981506485700379572 /* Cocoa.framework */,
+				F706DB9A1506485700379572 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F706DB9A1506485700379572 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F706DB9B1506485700379572 /* AppKit.framework */,
+				F706DB9C1506485700379572 /* CoreData.framework */,
+				F706DB9D1506485700379572 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F706DB9E1506485700379572 /* Light Browser */ = {
+			isa = PBXGroup;
+			children = (
+				F706DBAA1506485800379572 /* Light_BrowserAppDelegate.h */,
+				F706DBAB1506485800379572 /* Light_BrowserAppDelegate.m */,
+				F706DBAD1506485800379572 /* MainMenu.xib */,
+				F706DB9F1506485700379572 /* Supporting Files */,
+			);
+			path = "Light Browser";
+			sourceTree = "<group>";
+		};
+		F706DB9F1506485700379572 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F706DBA01506485700379572 /* Light Browser-Info.plist */,
+				F706DBA11506485700379572 /* InfoPlist.strings */,
+				F706DBA41506485700379572 /* main.m */,
+				F706DBA61506485700379572 /* Light Browser-Prefix.pch */,
+				F706DBA71506485800379572 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F706DB931506485700379572 /* Light Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F706DBB21506485800379572 /* Build configuration list for PBXNativeTarget "Light Browser" */;
+			buildPhases = (
+				F706DB901506485700379572 /* Sources */,
+				F706DB911506485700379572 /* Frameworks */,
+				F706DB921506485700379572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Light Browser";
+			productName = "Light Browser";
+			productReference = F706DB941506485700379572 /* Light Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F706DB8B1506485700379572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Shahid LLC.";
+			};
+			buildConfigurationList = F706DB8E1506485700379572 /* Build configuration list for PBXProject "Light Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				fr,
+				de,
+			);
+			mainGroup = F706DB891506485700379572;
+			productRefGroup = F706DB951506485700379572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F706DB931506485700379572 /* Light Browser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F706DB921506485700379572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F706DBA31506485700379572 /* InfoPlist.strings in Resources */,
+				F706DBA91506485800379572 /* Credits.rtf in Resources */,
+				F706DBAF1506485800379572 /* MainMenu.xib in Resources */,
+				F706DBBA1506548500379572 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F706DB901506485700379572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F706DBA51506485700379572 /* main.m in Sources */,
+				F706DBAC1506485800379572 /* Light_BrowserAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F706DBA11506485700379572 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F706DBA21506485700379572 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F706DBA71506485800379572 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F706DBA81506485800379572 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F706DBAD1506485800379572 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F706DBAE1506485800379572 /* en */,
+				F75F2667150656DB0082E30C /* ar */,
+				F75F2668150656E20082E30C /* fr */,
+				F75F2669150656E50082E30C /* de */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F706DBB01506485800379572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F706DBB11506485800379572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F706DBB31506485800379572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Light Browser/Light Browser-Prefix.pch";
+				INFOPLIST_FILE = "Light Browser/Light Browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F706DBB41506485800379572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Light Browser/Light Browser-Prefix.pch";
+				INFOPLIST_FILE = "Light Browser/Light Browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F706DB8E1506485700379572 /* Build configuration list for PBXProject "Light Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F706DBB01506485800379572 /* Debug */,
+				F706DBB11506485800379572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F706DBB21506485800379572 /* Build configuration list for PBXNativeTarget "Light Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F706DBB31506485800379572 /* Debug */,
+				F706DBB41506485800379572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F706DB8B1506485700379572 /* Project object */;
+}
